@@ -1,8 +1,24 @@
 aid: whatscookin
 name: WhatsCookin'
-description: WhatsCookin' is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: WhatsCookin' is a community cooperation platform — a "Cooperation Engine for Communities"
+  — that helps people organize local and virtual gatherings and build healthy social connections. Members
+  join or create Circles (community spaces for conversation and events), post Offers to gauge interest
+  in potential events, and make Wishes that others can fulfill by hosting. Communities span wellness,
+  community-building, language exchange, and food, with active circles in Tucson, Queens, San Francisco,
+  and Oakland. It is available on the web and as native iOS and Android apps. Backed by Bloomberg Beta.
+  There is no public developer/API surface at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.whatscookin.us/wp-content/uploads/2021/11/cropped-cropped-whatsCookinLogoHoriz.png
 url: https://raw.githubusercontent.com/api-evangelist/whatscookin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Community
+- Social
+- Events
+- Cooperation
+- Networking
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/whatscookin-domain-security.yml
 - type: Website
-  url: https://join.whatscookin.us
+  url: https://www.whatscookin.us/
+- type: SignUp
+  url: https://join.whatscookin.us/
+- type: Support
+  url: https://www.whatscookin.us/faq
+- type: TermsOfService
+  url: https://www.whatscookin.us/tos/
+- type: Blog
+  url: https://www.whatscookin.us/blogs/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/whatscookinus
+- type: Twitter
+  url: https://twitter.com/WhatsCookinUs
+- type: Instagram
+  url: https://www.instagram.com/whatscookin.us/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
