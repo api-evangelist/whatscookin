@@ -7,6 +7,17 @@ description: WhatsCookin' is a community cooperation platform — a "Cooperation
   community-building, language exchange, and food, with active circles in Tucson, Queens, San Francisco,
   and Oakland. It is available on the web and as native iOS and Android apps. Backed by Bloomberg Beta.
   There is no public developer/API surface at this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
